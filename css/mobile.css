@@ -1,0 +1,75 @@
+
+@media screen and (max-width: 744px) {
+
+    .header {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .nav {
+        width: 100%;
+    }
+
+    .nav__list {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .hero__box {
+        width: 100%;
+    }
+
+    .hero__title {
+        font-size: 48px;
+    }
+
+    .hero__lead {
+        width: 100%;
+    }
+
+    .about__box,
+    .location {
+        flex-direction: column;
+    }
+
+    .about__badge {
+        width: 200px;
+        left: 20px;
+        right: auto;
+    }
+
+    .route {
+        flex-direction: column;
+    }
+
+    .route:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .route__info {
+        order: 2;
+    }
+
+    .route__media {
+        order: 1;
+    }
+
+    .highlights__item,
+    .cars__item,
+    .contact__item {
+        width: 100%;
+    }
+
+    .gallery__image {
+        width: 100%;
+    }
+
+    .location__link {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
