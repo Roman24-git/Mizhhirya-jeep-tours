@@ -610,7 +610,7 @@ body {
 .media__time {
   display: flex;
   align-items: center;
-  background: #133c1f;
+  background: #133c1fc7;
   padding: 8px 16px;
   width: 130px;
   border-radius: 999px;

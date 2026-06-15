@@ -6,6 +6,25 @@
     padding: 0 20px;
   }
 
+  .header__button:hover {
+    font-size: 14px;
+    background: #cc572a;
+    color: inherit;
+  }
+
+  .hero__button-cream:hover {
+    font-size: 16px;
+    background: #cc572a;
+    color: #faf5ea;
+  }
+
+  .hero__button-outline:hover {
+    font-size: 16px;
+    background: #faf5ea;
+    border: none;
+    color: #133c1f;
+  }
+
   .header__link {
     flex: 0 0 auto;
   }
