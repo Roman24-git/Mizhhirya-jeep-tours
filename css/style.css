@@ -877,12 +877,10 @@ body {
 
 .contact__list {
   display: flex;
-  width: 100%;
+  width: 70%;
   margin-top: 56px;
   justify-content: space-between;
   gap: 24px;
-  padding-left: 256px;
-  padding-right: 256px;
 }
 
 .contact__item {
@@ -941,6 +939,7 @@ body {
   font-size: 18px;
   margin-top: 40px;
   transition: all 0.3s ease;
+  white-space: nowrap;
 }
 
 .contact__button:hover {
